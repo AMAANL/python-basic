@@ -46,7 +46,7 @@ elif choice1=="fight":
             print("Pikachu used Tackle!")
         elif choice2 == "double team":
             double_team = True
-            engine.say("Pikachu used double team!                       Caterpie's attacks will now do half damage")
+            engine.say("Pikachu used double team!Caterpie's attacks will now do half damage")
             engine.runAndWait()
             print("Pikachu used Double Team! Caterpie's attacks will now do half damage.")
         elif choice2 == "iron tail":
@@ -84,6 +84,6 @@ elif choice1=="fight":
             print()
             engine.say("pikachu fainted. You lost!")
             engine.runAndWait()
-            print("Pikachu fainted. You lost!")
+            print("Pikachu fainted. You lost!!")
             break
     
